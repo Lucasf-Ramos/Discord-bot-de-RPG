@@ -1,0 +1,27 @@
+# Ignora a pasta node_modules, que contém pacotes instalados via npm ou yarn
+node_modules/
+
+# Ignora arquivos de log
+*.log
+
+# Ignora arquivos de configuração de ambiente
+.env
+
+# Ignora cache do npm
+npm-debug.log*
+
+# Ignora cache do yarn
+yarn-debug.log*
+yarn-error.log*
+
+# Ignora diretório de builds
+dist/
+
+# Ignora arquivos de IDEs como VSCode ou WebStorm
+.vscode/
+.idea/
+
+# Ignora pastas de dependências globais do sistema (caso seja usado)
+.vagrant/
+.DS_Store
+
